@@ -1,17 +1,11 @@
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class MatrixHandlerTest {
 
     private static Logger log = Logger.getLogger(MatrixHandlerTest.class);
-
-    @BeforeClass
-    public void appSetup() {
-
-    }
 
     @DataProvider
     public Object[][] matrixMultiplyTestData() {
